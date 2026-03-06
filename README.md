@@ -119,8 +119,15 @@
 
 <h2 style="color: #58a5fe">
   <img src="assets/gitHubStats.gif" height="30">
-  <b>GitHub Stats</b>
+  <b>Stats</b>
 </h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/github-contribution-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/github-contribution-snake.svg">
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/github-contribution-snake.svg">
+</picture>
+
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
