@@ -110,9 +110,9 @@
 </h2>
 
 <p>
-  <div align="center"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=AnsgarLichter&repo=homepage&theme=github_dark" /></div>
-  <div align="center"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=AnsgarLichter&repo=catchthetrain&theme=github_dark" /></div>
-  <div align="center"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=AnsgarLichter&repo=exportkindleclippingstonotion&theme=github_dark" /></div>
+  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/kinhomepagedle.svg" alt="Pin card for repository homepage" /></div>
+  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/catchthetrain.svg" alt="Pin card for repository catchthetrain" /></div>
+  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/kindle.svg" alt="Pin card for repository exportkindleclippingstonotion" /></div>
 </p>
 
 <br/>
