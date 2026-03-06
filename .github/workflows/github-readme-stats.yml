@@ -83,7 +83,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&hide_border=false&include_all_commits=true&count_private=true&exclude_repo=machineLearningAssignment&theme=github_dark&count_private=true
+          options: username=${{ github.repository_owner }}&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide_title=false&langs_count=6&exclude_repo=machineLearningAssignment&theme=github_dark
           path: dist/top-langs.svg
           token: ${{ secrets.PAT }}
 
