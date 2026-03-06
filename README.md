@@ -130,15 +130,15 @@
 
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/dist/stats.svg" alt="GitHub Stats" />
+  <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" target="_blank">
+    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" alt="GitHub Stats" />
   </a>
 </p>
 <br/>
 
 <p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/dist/top-langs.svg" alt="GitHub Stats" />
+  <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" target="_blank">
+    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" alt="GitHub Stats" />
   </a>
 </p>
 
