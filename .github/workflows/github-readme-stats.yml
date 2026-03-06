@@ -40,7 +40,7 @@ jobs:
         with:
           card: pin
           options: 'username=AnsgarLichter&repo=homepage&theme=github_dark'
-          path: stats/homepage.svg
+          path: dist/homepage.svg
           token: ${{ secrets.PAT }}
 
       - name: Generate CatchTheTrain Card
@@ -48,7 +48,7 @@ jobs:
         with:
           card: pin
           options: 'username=AnsgarLichter&repo=catchthetrain&theme=github_dark'
-          path: stats/catchthetrain.svg
+          path: dist/catchthetrain.svg
           token: ${{ secrets.PAT }}
 
       - name: Generate Kindle Card
@@ -56,7 +56,7 @@ jobs:
         with:
           card: pin
           options: 'username=AnsgarLichter&repo=exportkindleclippingstonotion&theme=github_dark'
-          path: stats/kindle.svg
+          path: dist/kindle.svg
           token: ${{ secrets.PAT }}
      
       - name: Upload pins artifact
@@ -107,7 +107,7 @@ jobs:
           name: snake
           path: dist/
       
-      - name: Download snake
+      - name: Download pius
         uses: actions/download-artifact@v4
         with:
           name: pins
