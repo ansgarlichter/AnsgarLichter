@@ -51,17 +51,6 @@
 </p>
 
 <h2 style="color: #58a5fe">
-  <img src="assets/projects.gif" height="30"/>
-  <b>My Favourite Projects</b>
-</h2>
-
-<p>
-  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/homepage.svg" alt="Pin card for repository homepage" /></div>
-  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/catchthetrain.svg" alt="Pin card for repository catchthetrain" /></div>
-  <div align="center"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/kindle.svg" alt="Pin card for repository exportkindleclippingstonotion" /></div>
-</p>
-
-<h2 style="color: #58a5fe">
   <img src="assets/gitHubStats.gif" height="30">
   <b>Stats</b>
 </h2>

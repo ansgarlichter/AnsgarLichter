@@ -29,42 +29,6 @@ jobs:
           name: snake
           path: dist/
 
-  generate-pins:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate Homepage Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: 'username=AnsgarLichter&repo=homepage&theme=github_dark'
-          path: dist/homepage.svg
-          token: ${{ secrets.PAT }}
-
-      - name: Generate CatchTheTrain Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: 'username=AnsgarLichter&repo=catchthetrain&theme=github_dark'
-          path: dist/catchthetrain.svg
-          token: ${{ secrets.PAT }}
-
-      - name: Generate Kindle Card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: 'username=AnsgarLichter&repo=exportkindleclippingstonotion&theme=github_dark'
-          path: dist/kindle.svg
-          token: ${{ secrets.PAT }}
-     
-      - name: Upload pins artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pins
-          path: dist/
-
   generate-stats:
     runs-on: ubuntu-latest
     timeout-minutes: 5
@@ -98,19 +62,12 @@ jobs:
     needs:
       - generate-snake
       - generate-stats
-      - generate-pins
 
     steps:
       - name: Download snake
         uses: actions/download-artifact@v4
         with:
           name: snake
-          path: dist/
-      
-      - name: Download pius
-        uses: actions/download-artifact@v4
-        with:
-          name: pins
           path: dist/
 
       - name: Download stats
