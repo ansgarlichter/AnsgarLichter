@@ -72,8 +72,8 @@
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/github-contribution-snake.svg">
 </picture>
 
-<div align="center">
-  <a href="https://github.com/AnsgarLichter/AnsgarLichter"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" alt="GitHub Stats" height="170" /></a><a href="https://github.com/AnsgarLichter/AnsgarLichter"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" alt="Top Langs" height="170" /></a>
+<div align="center" style="white-space: nowrap;">
+  <a href="https://github.com/AnsgarLichter/AnsgarLichter"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" alt="GitHub Stats" height="195" /></a><a href="https://github.com/AnsgarLichter/AnsgarLichter"><img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" alt="Top Langs" height="195" /></a>
 </div>
 
 <hr>
