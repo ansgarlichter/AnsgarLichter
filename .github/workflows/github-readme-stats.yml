@@ -22,34 +22,22 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&hide_border=false&count_private=true&show_icons=true&theme=github_dark
-          path: stats.svg
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&hide_border=false&include_all_commits=true&count_private=true&exclude_repo=machineLearningAssignment&theme=github_dark&count_private=true
+          path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: snake
-          path:
-  
-  generate-top-langs:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v6
-
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&hide_border=false&include_all_commits=true&count_private=true&exclude_repo=machineLearningAssignment&theme=github_dark&count_private=true
-          path: top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: top-langs
-          path:
+          path: dist/
 
   deploy:
     runs-on: ubuntu-latest
@@ -64,16 +52,10 @@ jobs:
           name: stats
           path: dist/
 
-      - name: Download top langs
-        uses: actions/download-artifact@v4
-        with:
-          name: top-langs
-          path: dist/
-
       - name: Deploy to profile branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./
           publish_branch: profile
           commit_message: "docs(readme): update assets"
