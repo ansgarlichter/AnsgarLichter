@@ -11,12 +11,9 @@ on:
       - main
 
 jobs:
-  build:
+  generate-stats:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     timeout-minutes: 5
-
     steps:
       - uses: actions/checkout@v6
 
@@ -28,6 +25,18 @@ jobs:
           path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake
+          path: dist/
+  
+  generate-top-langs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -36,10 +45,35 @@ jobs:
           path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy to Profile Branch
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: top-langs
+          path: dist/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - generate-stats
+      - generate-top-langs
+
+    steps:
+      - name: Download stats
+        uses: actions/download-artifact@v4
+        with:
+          name: stats
+          path: dist/
+
+      - name: Download top langs
+        uses: actions/download-artifact@v4
+        with:
+          name: top-langs
+          path: dist/
+
+      - name: Deploy to profile branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: profile
-          commit_message: "docs(readme): update stats cards"
+          commit_message: "docs(readme): update assets"
