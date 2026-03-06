@@ -29,6 +29,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: snake
+          path:
   
   generate-top-langs:
     runs-on: ubuntu-latest
@@ -48,6 +49,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: top-langs
+          path:
 
   deploy:
     runs-on: ubuntu-latest
