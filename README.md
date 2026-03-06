@@ -54,10 +54,6 @@
   &emsp;
   <img src="https://img.shields.io/badge/javascript-323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
   &emsp;
-  <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  &emsp;
-  <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  &emsp;
 </p>
 
 <h3 style="color: #58a5fe">Backend</h3>
@@ -67,16 +63,14 @@
   &emsp;
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logoColor=white&logo=data:image/png;base64,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" alt="Java" />
   &emsp;
+  <img src="https://img.shields.io/badge/typescript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  &emsp;
 </p>
 
 <h3 style="color: #58a5fe">DevOps</h3>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Azure Devops" />
-  &emsp;
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  &emsp;
-  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white" alt="GitHub Pages" />
   &emsp;
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
   &emsp;
@@ -89,10 +83,6 @@
   &emsp;
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="GIT" />
   &emsp;
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman" />
-  &emsp;
-  <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello" />
-  &emsp;
   <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLINT" />
   &emsp;
 </p>
@@ -102,15 +92,11 @@
 <p align="left">
   <img src="https://img.shields.io/badge/conventional commits-FE5196.svg?style=for-the-badge&logo=conventional-commits&logoColor=white" alt="Conventional Commits" />
   &emsp;
-  <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  &emsp;
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   &emsp;
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node JS" />
   &emsp;
   <img src="https://img.shields.io/badge/sqlite-07405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  &emsp;
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudflare" />
   &emsp;
   <img src="https://img.shields.io/badge/markdown-000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
   &emsp;
