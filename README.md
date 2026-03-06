@@ -72,24 +72,27 @@
   <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/github-contribution-snake.svg">
 </picture>
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" alt="GitHub Stats" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" target="_blank">
-    <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" alt="GitHub Stats" />
-  </a>
-</p>
+<table width="100%">
+  <tr>
+    <td align="left" width="50%" height="170px">
+      <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/stats.svg" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td align="right" width="50%" height="170px">
+      <a href="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" target="_blank">
+        <img src="https://raw.githubusercontent.com/AnsgarLichter/AnsgarLichter/profile/top-langs.svg" alt="Top Langs" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <hr>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ansgarlichter&&style=flat-square" />
+  <br />
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7d484dc9-68a9-4ee6-a767-aea59035c12d" width="500">
 </p>
-
 <p align="center">
   Icons by <a target="_blank" href="https://icons8.com">Icons8</a> </small>
 </p>
