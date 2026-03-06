@@ -43,7 +43,6 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - generate-stats
-      - generate-top-langs
 
     steps:
       - name: Download stats
