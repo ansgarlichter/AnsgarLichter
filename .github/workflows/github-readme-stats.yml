@@ -62,6 +62,10 @@ jobs:
     needs:
       - generate-snake
       - generate-stats
+    env:
+      # This is your "shield" against the June 2026 deprecation.
+      # It forces the peaceiris action to use Node 24.
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Download snake
