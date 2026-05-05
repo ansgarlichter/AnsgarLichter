@@ -24,7 +24,7 @@ jobs:
             dist/github-contribution-snake-dark.svg?palette=github-dark
       
       - name: Upload snake artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v78
         with:
           name: snake
           path: dist/
